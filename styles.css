@@ -1,0 +1,90 @@
+#selfie {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hot {
+    background-size: cover;
+    height: 20em;
+} 
+
+#intro_description {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+#intro_paragraph {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.contact_button {
+    background-color: rgb(247, 221, 237);
+    padding: 0.5em;
+    border-radius: 10%;
+    text-decoration: none;
+    color: black;
+    margin: 0 0.25em;
+    font-size: 1em;
+}
+
+#contact_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(219, 232, 255);
+}
+
+h3 {
+    margin: 0 !important;
+}
+
+hr {
+    margin: 0.2em !important;
+}
+
+#top_project_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25em;
+}
+
+#bottom_project_row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 0.25em;
+}
+
+.card {
+    background-color: #fcefff !important;
+    border-radius: 30%;
+    margin: 0 0.25em;
+}
+
+.btn_card {
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    padding: 0.2em 0.4em;
+}
+
+.card-title {
+    font-family: 'Acme', sans-serif;
+    font-size: 1.5em;
+}
