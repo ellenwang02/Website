@@ -21,15 +21,15 @@
     <a class="navbar-brand" href="#">  
       <nav class="navbar navbar-expand-lg navbar-light bg-#F9DFFF">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">EW</a>
+        <a class="navbar-brand">EW</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active" aria-current="page" href="#">About Me</a>
-            <a class="nav-link" href="#">Resume</a>
-            <a class="nav-link" href="#">Hobbies</a>
+            <a class="nav-link" target="_blank" href="Ellen_s_Resume.pdf">Resume</a>
+            <a class="nav-link" href="hobbies.html">Hobbies</a>
             <!-- <a class="nav-link disabled">Youtube</a> -->
           </div>
         </div>
@@ -42,8 +42,7 @@
 <div id = "intro_description">
   <img src="selfie.jpg" class="img-thumbnail" alt="Ellen Wang Linkedin Photo" id = "hot">
   <div id = "intro_paragraph"> 
-    Hi my name is Ellen!
-    <br>
+    <div id = "intro_name">Hi my name is Ellen!</div>
     <br> I am an Electrical Engineering student at the University of Waterloo. 
     <br>
     <br> My interests are within power electronics and analog design ⚡
@@ -53,69 +52,98 @@
   </div>
 </div>
 
-<hr>
+<hr class = "line_divider">
 <div id = "contact_container">
   <h3 style = "font-family: 'Bebas Neue', cursive;"> Contact me @ </h3>
   <a target="_blank" href = "mailto: e58wang@uwaterloo.ca" class = "contact_button">Email</a>
   <a target="_blank" href= "https://www.linkedin.com/in/ellenwang2002/" class = "contact_button">Linkedin</a>
 </div>
-<hr>
+<hr class = "line_divider">
 
 <div>
 
   <div id = "top_project_row">
   <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="POWERBOARD_REV1.jpg" class="card-img-top" alt="Powerboard Rev.1 PCB Layout" id ="first-img">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <h5 class="card-title">MC Rev.1</h5>
+      <p class="card-text">First Revision of a 3 Phase Motor Controller, designed for Waterloop's Goose 5.5</p>
       <a href="mc1.html" class="btn_card">View More</a>
     </div>
   </div>
 
   <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="POWERBOARD_REV2_LAY.jpg" class="card-img-top" alt="Powerboard Rev.2 PCB Layout" id ="second-img">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn_card">View More</a>
+      <h5 class="card-title">MC Rev.2</h5>
+      <p class="card-text">Second Revision of a 3 Phase Motor Controller, designed for Waterloop's Goose 5.5</p>
+      <a href="mc2.html" class="btn_card">View More</a>
     </div>
   </div>
 
   <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="POWERBOARD_REV3_LAY.jpg" class="card-img-top" alt="Powerboard Rev.3 PCB Layout" id ="third-img">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn_card">View More</a>
+      <h5 class="card-title">MC Rev.3</h5>
+      <p class="card-text">Third Revision of a 3 Phase Motor Controller, designed for Waterloop's Goose 5.5</p>
+      <a href="mc3.html" class="btn_card">View More</a>
     </div>
   </div>
   </div>
 
-  <div id = "bottom_project_row">
+  <div id = "second_project_row">
     <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="MotionSensor_LAY.jpg" cla ss="card-img-top" alt="Motion Sensor PCB Layout" id ="fourth-img">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">Motion Sensor Light</h5>
+        <p class="card-text">Motion Sensor Lighting circuit, detects motion within a 7 meter radius</p>
         <a href="#" class="btn_card">View More</a>
       </div>
     </div>
   
     <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="Audio_Amplifier_LAY.jpg" class="card-img-top" alt="Audio Amplifier PCB Layout" id ="fifth-img">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">Audio Amplifier</h5>
+        <p class="card-text">ADD DESCRIPTION HERE</p>
         <a href="#" class="btn_card">View More</a>
       </div>
     </div>
   
     <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="ESDTester_LAY.jpg" class="card-img-top" alt="Electrostatic Discharge PCB Layout" id ="sixth-img">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h5 class="card-title">ESD Tester</h5>
+        <p class="card-text">Electrostatic Discharge circuit, outputs _____kW of power</p>
+        <a href="#" class="btn_card">View More</a>
+      </div>
+    </div>
+  </div>
+
+  <div id = "third_project_row">
+    <div class="card" style="width: 18rem;">
+      <img src="..." cla ss="card-img-top" alt="..." id ="seventh-img">
+      <div class="card-body">
+        <h5 class="card-title">Digital Dice</h5>
+        <p class="card-text">Random two dice number generator with LED display</p>
+        <a href="#" class="btn_card">View More</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="..." id ="eighth-img">
+      <div class="card-body">
+        <h5 class="card-title">...</h5>
+        <p class="card-text">...</p>
+        <a href="#" class="btn_card">View More</a>
+      </div>
+    </div>
+  
+    <div class="card" style="width: 18rem;">
+      <img src="..." class="card-img-top" alt="..." id ="ninth-img">
+      <div class="card-body">
+        <h5 class="card-title">...</h5>
+        <p class="card-text">...</p>
         <a href="#" class="btn_card">View More</a>
       </div>
     </div>
